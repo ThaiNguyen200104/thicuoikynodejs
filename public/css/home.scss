@@ -1,0 +1,33 @@
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "O-Sans";
+  font-weight: 700;
+}
+
+body {
+  height: 100vh;
+  background-image: url(../images/background_1.jpg);
+  background-size: auto;
+}
+
+nav {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(15px);
+  background: rgba(0, 0, 0, 0.25);
+}
+h1 {
+  background: linear-gradient(
+    90deg,
+    rgba(253, 29, 29, 1) 0%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}

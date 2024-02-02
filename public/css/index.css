@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "B-Next";
+  src: url("fonts/bluu_next-bold.woff") format("woff");
+  font-weight: bold; /* Explicitly define regular weight */
+}
+@font-face {
+  font-family: "O-Sans";
+  src: url("fonts/ostrich_sans-heavy.woff2") format("woff2");
+  font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "O-Sans";
+  font-weight: 700;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/background_2.jpg);
+  background-size: cover;
+}
+
+.form-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 75px;
+  border: 1px solid;
+  border-radius: 25px;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  background: rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff0ce;
+  text-transform: uppercase;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #fff0ce;
+}
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #0c356a;
+  color: #fff0ce;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Equinox";
+  font-weight: bold;
+}
+
+.submit-btn:hover {
+  background-color: #ffc436;
+  color: #000;
+  transition: all 0.5s ease;
+}
+
+p {
+  margin-top: 15px;
+  color: #fff0ce;
+}
+p a {
+  text-decoration: none;
+  color: #ffc436;
+}/*# sourceMappingURL=index.css.map */

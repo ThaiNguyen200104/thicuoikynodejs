@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "B-Next";
+  src: url("fonts/bluu_next-bold.woff") format("woff");
+  font-weight: bold; /* Explicitly define regular weight */
+}
+@font-face {
+  font-family: "O-Sans";
+  src: url("fonts/ostrich_sans-heavy.woff2") format("woff2");
+  font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "O-Sans";
+  font-weight: 700;
+}
+
+body {
+  height: 100vh;
+  background-image: url(../images/background_1.jpg);
+  background-size: auto;
+}
+
+nav {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  background: rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  background: linear-gradient(90deg, rgb(253, 29, 29) 0%, rgb(252, 176, 69) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}/*# sourceMappingURL=home.css.map */

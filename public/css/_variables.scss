@@ -1,0 +1,16 @@
+$main-color: #fff0ce;
+$secondary-color: #0c356a;
+$hover-color: #0174be;
+$dir-color: #ffc436;
+
+@font-face {
+  font-family: "B-Next";
+  src: url("fonts/bluu_next-bold.woff") format("woff");
+  font-weight: bold; /* Explicitly define regular weight */
+}
+
+@font-face {
+  font-family: "O-Sans";
+  src: url("fonts/ostrich_sans-heavy.woff2") format("woff2");
+  font-weight: 700;
+}
